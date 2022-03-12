@@ -1,17 +1,9 @@
-body{
-  
-}
-.content__text_hello{
-    position: relative;
-    top: 60px;
-    font-family: cursive;
-    text-align: center;
-    font-size: 25px;
-}
+
 @media(max-width:1024px){
     .content__text_hello{
         position: relative;
         top: -60px;
+        text-align: center;
         font-size: 26px;
         text-decoration: underline 3px aqua  ;
 
@@ -33,7 +25,6 @@ body{
 
     
     .heade__menu_text a{
-        font-family: cursive;
         position: relative;
         top: 20px;
         font-size: 16px;
@@ -50,10 +41,9 @@ body{
     }
     .content__text{
         text-align: center;
-        font-family: cursive;
         position: relative;
         top: 180px;
-        font-size: 16px;
+        font-size: 18px;
         border:solid 1px;
         border-radius: 20px;
         text-decoration: underline 2px aqua  ;
@@ -79,6 +69,13 @@ body{
     opacity: 0.8;
     text-transform: uppercase;
     color: white;
+}
+.content__text_hello{
+    position: relative;
+    top: 60px;
+    font-family: cursive;
+    text-align: center;
+    font-size: 25px;
 }
 .heade__menu{
     width: 100%;
