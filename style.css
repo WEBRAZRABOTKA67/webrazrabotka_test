@@ -1,0 +1,112 @@
+body{
+  
+}
+.content__text_hello{
+    position: relative;
+    top: 60px;
+    font-family: cursive;
+    text-align: center;
+    font-size: 25px;
+}
+@media(max-width:1024px){
+    .content__text_hello{
+        position: relative;
+        top: -60px;
+        font-size: 26px;
+        text-decoration: underline 3px aqua  ;
+
+        
+    }
+    .content__text_hello::before{
+        content: "«";
+    }
+    .content__text_hello::after{
+        content: "»";
+    }
+    .heade__logo Img{
+        position: relative;
+        top: 50px;
+        left: 100px;
+        border: solid 1px;
+        border-radius: 30% 10% 20%;
+    }
+
+    
+    .heade__menu_text a{
+        font-family: cursive;
+        position: relative;
+        top: 20px;
+        font-size: 16px;
+        padding: 0px 25px;
+        text-decoration: none;
+        text-transform: uppercase;
+        color:white;
+        opacity: 0.8;
+    }
+    .heade__menu{
+        width: 100%;
+        height: 60px;
+        background-color: #363636;
+    }
+    .content__text{
+        text-align: center;
+        font-family: cursive;
+        position: relative;
+        top: 180px;
+        font-size: 16px;
+        border:solid 1px;
+        border-radius: 20px;
+        text-decoration: underline 2px aqua  ;
+    }
+}
+
+.heade__menu_text a::before{
+    content: "«";
+}
+.heade__menu_text a::after{
+    content: "»";
+}
+
+
+@media(min-width:1920px){
+.heade__menu_text a{
+    position: relative;
+    top: 20px;
+    font-size: 20px;
+    font-family: cursive;
+    padding: 0px 25px;
+    text-decoration: none;
+    opacity: 0.8;
+    text-transform: uppercase;
+    color: white;
+}
+.heade__menu{
+    width: 100%;
+    height: 60px;
+    background-color: #363636;
+}
+
+
+.heade__menu_text a::before{
+content: "«";
+}
+.heade__menu_text a::after{
+content: "»";
+}
+.content__text{
+    text-align: center;
+    font-family: cursive;
+    position: relative;
+    top: 300px;
+    font-size: 20px;
+    text-decoration: underline 2px aqua  ;
+}
+.heade__logo Img{
+    position: relative;
+    top: 100px;
+    left: 900px;
+    border: solid 1px;
+    border-radius: 30% 10% 20%;
+}
+
+}
