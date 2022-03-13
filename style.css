@@ -1,9 +1,10 @@
 body{
-    margin:12px;
+    margin: 12px;
+}
 @media(max-width:1024px){
     .content__text_hello{
         position: relative;
-        text-shadow: 0.8px 0.8px 0.8px;
+        text-shadow: 0.5px 0.5px 0.5px;
         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         top: -140px;
         text-align: center;
@@ -54,13 +55,14 @@ body{
     }
     .content__text{
         text-align: center;
-        text-shadow: 0.8px 0.8px 0.8px;
+        text-shadow: 0.5px 0.5px 0.5px;
         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         position: relative;
         top: 200px;
         font-size: 18px;
         border:solid 1px;
         border-radius: 15px;
+        padding: 12px;
         text-decoration: underline 2px aqua  ;
         
         
