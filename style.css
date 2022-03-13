@@ -1,4 +1,5 @@
-
+body{
+    margin:12px;
 @media(max-width:1024px){
     .content__text_hello{
         position: relative;
@@ -26,9 +27,7 @@
         border: solid 1px;
         border-radius: 30% 10% 20%;
     }
-    .wrapper{
-        margin: 12px;
-    }
+
 
     
     .heade__menu_text a{
