@@ -1,12 +1,11 @@
 
-
 @media(max-width:1024px){
     .content__text_hello{
         position: relative;
         font-family: "SF UI Display";;
-        top: -180px;
+        top: -110px;
         text-align: center;
-        font-size: 26px;
+        font-size: 23px;
         text-decoration: underline 3px aqua  ;
 
         
@@ -54,8 +53,8 @@
         text-align: center;
         font-family: "SF UI Display";;
         position: relative;
-        top: 180px;
-        font-size: 20px;
+        top: 160px;
+        font-size: 17px;
         border:solid 1px;
         border-radius: 20px;
         text-decoration: underline 2px aqua  ;
