@@ -3,7 +3,7 @@
     .content__text_hello{
         position: relative;
         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        top: -110px;
+        top: -140px;
         text-align: center;
         font-size: 23px;
         text-decoration: underline 3px aqua  ;
@@ -60,7 +60,8 @@
         border:solid 1px;
         border-radius: 15px;
         text-decoration: underline 2px aqua  ;
-        padding: 12px;
+        
+        
     }
 }
 
