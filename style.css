@@ -5,7 +5,7 @@ body{
     .content__text_hello{
         position: relative;
         text-shadow: 0.5px 0.5px 0.5px;
-        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-family:"SF UI Display",Arial, Helvetica, sans-serif;
         top: -140px;
         text-align: center;
         font-size: 23px;
@@ -56,7 +56,7 @@ body{
     .content__text{
         text-align: center;
         text-shadow: 0.5px 0.5px 0.5px;
-        font-family:''HelveticaNeueCyr',sans-serif;
+        font-family:"SF UI Display",Arial, Helvetica, sans-serif;
         position: relative;
         top: 200px;
         font-size: 18px;
